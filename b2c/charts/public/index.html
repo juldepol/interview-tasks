@@ -2,8 +2,29 @@
 <html>
 <head>
 	<title>charts</title>
+  <style type="text/css">
+    body{
+      background-color: #9E9E9E;
+    }
+
+    #container{
+      height: 602px;
+      width: 802px;
+      background-color: #FFFFFF;
+      padding: 10px;
+      margin: 100px auto;
+    }
+
+    #canvas{
+      border: 1px solid #C5CAE9;
+    }
+  </style>
 </head>
 <body>
+  <div id="container">
+    <canvas id="canvas" width="800" height="600"></canvas>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 	<script src="client.js"></script>
 </body>
 </html>
